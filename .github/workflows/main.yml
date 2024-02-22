@@ -9,15 +9,130 @@ on:
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
-    environment: 
-      name: production
     permissions:
       contents: write
     steps:
       - uses: yousecjoe/metrics@master
         with:
-          token: ${{ secrets.METRICS_TOKEN }}
+          use_prebuilt_image: yes
+          filename: header.svg
+          token: ${{ secrets.METRICS_TOKEN }}          
+          # GITHUB_TOKEN is a special auto-generated token used for commits
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
           retries: 3
           retries_delay: 30
           retries_output_action: 3
           retries_delay_output_action: 30
+
+          # Options
+          user: yousecjoe
+          template: classic
+          base: header
+          config_timezone: ${{ secrets.USER_TIMEZONE }}
+
+  repositories:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: yousecjoe/metrics@master
+        with:
+          use_prebuilt_image: yes
+          filename: repositories.svg
+          # You'll need to setup a personal token in your secrets.
+          token: ${{ secrets.METRICS_TOKEN }}
+          # GITHUB_TOKEN is a special auto-generated token used for commits
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+
+          # Options
+          user: yousecjoe
+          template: classic
+          base: repositories
+          config_timezone: ${{ secrets.USER_TIMEZONE }}
+
+  acti_comm:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: yousecjoe/metrics@master
+        with:
+          use_prebuilt_image: yes
+          filename: acti_comm.svg
+          # You'll need to setup a personal token in your secrets.
+          token: ${{ secrets.METRICS_TOKEN }}
+          # GITHUB_TOKEN is a special auto-generated token used for commits
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+
+          # Options
+          user: yousecjoe
+          template: classic
+          base: activity, community
+          config_timezone: ${{ secrets.USER_TIMEZONE }}
+
+  iso_calender:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Full-year calendar
+        uses: yousecjoe/metrics@master
+        with:
+          use_prebuilt_image: yes
+          filename: metrics.plugin.isocalendar.fullyear.svg
+          # You'll need to setup a personal token in your secrets.
+          token: ${{ secrets.METRICS_TOKEN }}
+          # GITHUB_TOKEN is a special auto-generated token used for commits
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+
+          # Options
+          user: yousecjoe
+          template: classic
+          base: ""
+          config_timezone: ${{ secrets.USER_TIMEZONE }}
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+  issue_pr_lang:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Indepth analysis
+        uses: yousecjoe/metrics@master
+        with:
+          use_prebuilt_image: yes
+          filename: metrics.plugin.followup.indepth.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_followup: yes
+          plugin_followup_indepth: yes
+          plugin_languages: yes
+
+  habits:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: yousecjoe/metrics@master
+        with:
+          use_prebuilt_image: yes
+          filename: github-habits.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          config_timezone: ${{ secrets.USER_TIMEZONE }} # Set timezone
+          user: yousecjoe
+          base: ""
+          template: classic
+          plugin_habits: yes
+          plugin_habits_from: 200       # Use 200 events to compute habits
+          plugin_habits_days: 14        # Keep only events from last 14 days
+          plugin_habits_charts: yes     # Display charts section
+          plugin_habits_trim: yes       # Trim unused hours on daily chart
+
+  achievements:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: yousecjoe/metrics@master
+        with:
+          use_prebuilt_image: yes
+          filename: achievements.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          user: yousecjoe
+          base: achievements
+          plugin_achievements: yes
+          plugin_achievements_threshold: B      # Display achievements with rank B or higher
+          plugin_achievements_secrets: yes      # Display unlocked secrets achievements
+          plugin_achievements_display: compact  # Use compact display
+          plugin_achievements_limit: 0          # Display all unlocked achievements (no limit)
