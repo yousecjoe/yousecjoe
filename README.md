@@ -64,48 +64,52 @@
 
 <h2><span style="color:green">Stats & Metrics</span></h2>
 
-<a href="https://github.com/youngsecurity/www">
-    <img align="center" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=youngsecurity&repo=www&show_owner=true&theme=merko&bg_color=00000000&hide_border=true" />
+<a href="https://github.com/redlinejoes/www">
+    <img align="center" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=redlinejoes&repo=www&show_owner=true&theme=merko&bg_color=00000000&hide_border=true" />
 </a>
 
 <a href="https://github.com/redlinejoes/upptime">
     <img align="center" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=redlinejoes&repo=upptime&show_owner=true&theme=merko&bg_color=00000000&hide_border=true" />
 </a>
 
-<a href="https://github.com/youngsecurity/metrics">
-    <img align="center" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=youngsecurity&repo=metrics&show_owner=true&theme=merko&bg_color=00000000&hide_border=true" />
+<a href="https://github.com/yousecjoe/metrics">
+    <img align="center" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=yousecjoe&repo=metrics&show_owner=true&theme=merko&bg_color=00000000&hide_border=true" />
 </a>
 
-<a href="https://github.com/youngsecurity/github-readme-stats">
-    <img align="center" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=youngsecurity&repo=github-readme-stats&show_owner=true&theme=merko&bg_color=00000000&hide_border=true" />
+<a href="https://github.com/yousecjoe/github-readme-stats">
+    <img align="center" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=yousecjoe&repo=github-readme-stats&show_owner=true&theme=merko&bg_color=00000000&hide_border=true" />
 </a>
 
 <h2><span style="color:green">AI & Bots</span></h2>
 
-<a href="https://github.com/youngsecurity/cherry2k">
-    <img align="center" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=youngsecurity&repo=cherry2k&show_owner=true&theme=merko&bg_color=00000000&hide_border=true" />
+<a href="https://github.com/youngsecurity/ai-discord-bot">
+    <img align="center" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=youngsecurity&repo=ai-discord-bot&show_owner=true&theme=merko&bg_color=00000000&hide_border=true" />
+</a>
+
+<a href="https://github.com/redlinejoes/cherry2k">
+    <img align="center" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=redlinejoes&repo=cherry2k&show_owner=true&theme=merko&bg_color=00000000&hide_border=true" />
 </a>
 
 <h2><span style="color:green">Cybersecurity</span></h2>
 
-<a href="https://github.com/youngsecurity/glaucus">
-    <img align="center" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=youngsecurity&repo=glaucus&show_owner=true&theme=merko&bg_color=00000000&hide_border=true" />
+<a href="https://github.com/redlinejoes/glaucus">
+    <img align="center" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=redlinejoes&repo=glaucus&show_owner=true&theme=merko&bg_color=00000000&hide_border=true" />
 </a>
 
-<a href="https://github.com/youngsecurity/lions-mane-jellyfish">
-    <img align="center" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=youngsecurity&repo=lions-mane-jellyfish&show_owner=true&theme=merko&bg_color=00000000&hide_border=true" />
+<a href="https://github.com/redlinejoes/lions-mane-jellyfish">
+    <img align="center" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=redlinejoes&repo=lions-mane-jellyfish&show_owner=true&theme=merko&bg_color=00000000&hide_border=true" />
 </a>
 
-<a href="https://github.com/youngsecurity/Cybersecurity-Vulnerability-Mindmap">
-    <img align="center" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=youngsecurity&repo=Cybersecurity-Vulnerability-Mindmap&show_owner=true&theme=merko&bg_color=00000000&hide_border=true" />
+<a href="https://github.com/redlinejoes/Cybersecurity-Vulnerability-Mindmap">
+    <img align="center" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=redlinejoes&repo=Cybersecurity-Vulnerability-Mindmap&show_owner=true&theme=merko&bg_color=00000000&hide_border=true" />
 </a>
 
 <a href="https://github.com/youngsecurity/wazuh">
     <img align="center" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=youngsecurity&repo=wazuh&show_owner=true&theme=merko&bg_color=00000000&hide_border=true" />
 </a>
 
-<a href="https://github.com/youngsecurity/KaiMonkey">
-    <img align="center" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=youngsecurity&repo=KaiMonkey&show_owner=true&theme=merko&bg_color=00000000&hide_border=true" />
+<a href="https://github.com/redlinejoes/KaiMonkey">
+    <img align="center" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=redlinejoes&repo=KaiMonkey&show_owner=true&theme=merko&bg_color=00000000&hide_border=true" />
 </a>
 
 <h2><span style="color:green">Game Streaming</span></h2>
@@ -118,38 +122,38 @@
     <img align="center" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=youngsecurity&repo=wolf&show_owner=true&theme=merko&bg_color=00000000&hide_border=true" />
 </a>
 
-<a href="https://github.com/youngsecurity/moonlight-qt">
-    <img align="center" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=youngsecurity&repo=moonlight-qt&show_owner=true&theme=merko&bg_color=00000000&hide_border=true" />
+<a href="https://github.com/redlinejoes/moonlight-qt">
+    <img align="center" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=redlinejoes&repo=moonlight-qt&show_owner=true&theme=merko&bg_color=00000000&hide_border=true" />
 </a>
 
-<a href="https://github.com/youngsecurity/moonlight-ios">
-    <img align="center" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=youngsecurity&repo=moonlight-ios&show_owner=true&theme=merko&bg_color=00000000&hide_border=true" />
+<a href="https://github.com/redlinejoes/moonlight-ios">
+    <img align="center" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=redlinejoes&repo=moonlight-ios&show_owner=true&theme=merko&bg_color=00000000&hide_border=true" />
 </a>
 
-<a href="https://github.com/youngsecurity/Easy-GPU-PV">
-    <img align="center" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=youngsecurity&repo=Easy-GPU-PV&show_owner=true&theme=merko&bg_color=00000000&hide_border=true" />
+<a href="https://github.com/redlinejoes/Easy-GPU-PV">
+    <img align="center" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=redlinejoes&repo=Easy-GPU-PV&show_owner=true&theme=merko&bg_color=00000000&hide_border=true" />
 </a>
 
 <h2><span style="color:green">Containers</span></h2>
 
-<a href="https://github.com/youngsecurity/dockerfiles-jessfraz">
-    <img align="center" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=youngsecurity&repo=dockerfiles-jessfraz&show_owner=true&theme=merko&bg_color=00000000&hide_border=true" />
+<a href="https://github.com/redlinejoes/dockerfiles-jessfraz">
+    <img align="center" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=redlinejoes&repo=dockerfiles-jessfraz&show_owner=true&theme=merko&bg_color=00000000&hide_border=true" />
 </a>
 
-<a href="https://github.com/youngsecurity/docker-webtop">
-    <img align="center" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=youngsecurity&repo=docker-webtop&show_owner=true&theme=merko&bg_color=00000000&hide_border=true" />
+<a href="https://github.com/redlinejoes/docker-webtop">
+    <img align="center" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=redlinejoes&repo=docker-webtop&show_owner=true&theme=merko&bg_color=00000000&hide_border=true" />
 </a>
 
-<a href="https://github.com/youngsecurity/docker-kasm">
-    <img align="center" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=youngsecurity&repo=docker-kasm&show_owner=true&theme=merko&bg_color=00000000&hide_border=true" />
+<a href="https://github.com/youngsecurity/kasm-docker">
+    <img align="center" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=youngsecurity&repo=kasm-docker&show_owner=true&theme=merko&bg_color=00000000&hide_border=true" />
 </a>
 
 <a href="https://github.com/youngsecurity/kasm-workspaces-images">
     <img align="center" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=youngsecurity&repo=kasm-workspaces-images&show_owner=true&theme=merko&bg_color=00000000&hide_border=true" />
 </a>
 
-<a href="https://github.com/youngsecurity/KasmVNC">
-    <img align="center" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=youngsecurity&repo=KasmVNC&show_owner=true&theme=merko&bg_color=00000000&hide_border=true" />
+<a href="https://github.com/redlinejoes/KasmVNC">
+    <img align="center" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=redlinejoes&repo=KasmVNC&show_owner=true&theme=merko&bg_color=00000000&hide_border=true" />
 </a>
 
 <!-- markdownlint-configure-file {
