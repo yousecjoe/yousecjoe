@@ -25,7 +25,7 @@ jobs:
           retries_delay_output_action: 30
 
           # Options
-          user: yousecjoe
+          user: youngsecurity
           template: classic
           base: header
           config_timezone: ${{ secrets.USER_TIMEZONE }}
@@ -47,7 +47,7 @@ jobs:
           retries_delay_output_action: 30
 
           # Options
-          user: yousecjoe
+          user: youngsecurity
           template: classic
           base: repositories
           config_timezone: ${{ secrets.USER_TIMEZONE }}
