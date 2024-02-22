@@ -35,7 +35,7 @@ jobs:
     steps:
       - uses: yousecjoe/metrics@master
         with:
-          use_prebuilt_image: yes
+          #use_prebuilt_image: yes
           filename: repositories.svg
           # You'll need to setup a personal token in your secrets.
           token: ${{ secrets.METRICS_TOKEN }}
@@ -47,7 +47,7 @@ jobs:
           retries_delay_output_action: 30
 
           # Options
-          user: youngsecurity
+          user: yousecjoe
           template: classic
           base: repositories
           config_timezone: ${{ secrets.USER_TIMEZONE }}
