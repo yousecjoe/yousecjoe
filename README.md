@@ -36,8 +36,6 @@
     <img align="center" width="49%" src="./achievements.svg" />
 </a>
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
-
 <a href="https://github.com/yousecjoe">
     <img align="center" width="49%" src="https://github-readme-stats.vercel.app/api?username=yousecjoe&show_icons=true&theme=merko&bg_color=00000000&hide_border=true&count_private=true&include_all_commits=true&number_format=long&ring_color=#00FF00" />
 </a>
