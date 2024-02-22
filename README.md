@@ -1,21 +1,7 @@
 # Hi there 👋
 
 <a href="https://github.com/yousecjoe">
-  <img align="center" width="49%" src="./header.svg" />
-</a>
-
-<a href="https://github.com/yousecjoe">
   <img align="center" width="49%" src="./github-metrics.svg" alt="Metrics">
-</a>
-
-<br/>
-
-<a href="https://github.com/yousecjoe">
-  <img align="center" width="49%" src="./repositories.svg" />
-</a>
-
-<a href="https://github.com/yousecjoe">
-  <img align="center" width="49%" src="./acti_comm.svg" />
 </a>
 
 <a href="https://github.com/yousecjoe">
@@ -39,9 +25,7 @@
     <img align="center" width="49%" src="https://github-readme-stats.vercel.app/api?username=yousecjoe&show_icons=true&theme=merko&bg_color=00000000&hide_border=true&count_private=true&include_all_commits=true&number_format=long&ring_color=#00FF00" />
 </a>
 
-<a href="https://github.com/yousecjoe">
-    <img align="center" width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yousecjoe&langs_count=8&layout=compact&theme=merko&bg_color=00000000&hide_border=true" />
-</a>
+<hr>
 
 <h2><span style="color:green">DevSecOps Internal Developer Platforms</span></h2>
 
@@ -61,6 +45,7 @@
     <img align="center" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=youngsecurity&repo=defense-unicorns-zarf&show_owner=true&theme=merko&bg_color=00000000&hide_border=true" />
 </a>
 
+<hr>
 <h2><span style="color:green">Stats & Metrics</span></h2>
 
 <a href="https://github.com/redlinejoes/www">
@@ -79,6 +64,7 @@
     <img align="center" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=yousecjoe&repo=github-readme-stats&show_owner=true&theme=merko&bg_color=00000000&hide_border=true" />
 </a>
 
+<hr>
 <h2><span style="color:green">AI & Bots</span></h2>
 
 <a href="https://github.com/youngsecurity/ai-discord-bot">
@@ -89,6 +75,7 @@
     <img align="center" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=redlinejoes&repo=cherry2k&show_owner=true&theme=merko&bg_color=00000000&hide_border=true" />
 </a>
 
+<hr>
 <h2><span style="color:green">Cybersecurity</span></h2>
 
 <a href="https://github.com/redlinejoes/glaucus">
@@ -111,6 +98,7 @@
     <img align="center" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=redlinejoes&repo=KaiMonkey&show_owner=true&theme=merko&bg_color=00000000&hide_border=true" />
 </a>
 
+<hr>
 <h2><span style="color:green">Game Streaming</span></h2>
 
 <a href="https://github.com/youngsecurity/gow">
@@ -133,6 +121,7 @@
     <img align="center" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=redlinejoes&repo=Easy-GPU-PV&show_owner=true&theme=merko&bg_color=00000000&hide_border=true" />
 </a>
 
+<hr>
 <h2><span style="color:green">Containers</span></h2>
 
 <a href="https://github.com/redlinejoes/dockerfiles-jessfraz">
