@@ -41,6 +41,10 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           # GITHUB_TOKEN is a special auto-generated token used for commits
           committer_token: ${{ secrets.GITHUB_TOKEN }}
+          retries: 3
+          retries_delay: 30
+          retries_output_action: 3
+          retries_delay_output_action: 30
 
           # Options
           user: yousecjoe
