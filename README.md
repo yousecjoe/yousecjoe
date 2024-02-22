@@ -23,6 +23,10 @@
 </a>
 
 <a href="https://github.com/yousecjoe">
+  <img align="center" src="/github-metrics.svg" alt="Metrics" width="400"></p>
+</a>
+
+<a href="https://github.com/yousecjoe">
   <img align="center" width="49%" src="./github-habits.svg" />
 </a>
 
