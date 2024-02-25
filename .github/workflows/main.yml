@@ -32,6 +32,8 @@ jobs:
 
   iso_calender:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Full-year calendar
         uses: yousecjoe/metrics@master
@@ -49,6 +51,8 @@ jobs:
 
   issue_pr_lang:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Indepth analysis
         uses: yousecjoe/metrics@master
@@ -62,6 +66,8 @@ jobs:
 
   habits:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: yousecjoe/metrics@master
         with:
@@ -81,6 +87,8 @@ jobs:
 
   achievements:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: yousecjoe/metrics@master
         with:

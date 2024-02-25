@@ -67,6 +67,22 @@
 <hr>
 <h2><span style="color:green">AI & Bots</span></h2>
 
+<a href="https://github.com/youngsecurity/ai-ollama">
+    <img align="center" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=youngsecurity&repo=ai-ollama&show_owner=true&theme=merko&bg_color=00000000&hide_border=true" />
+</a>
+
+<a href="https://github.com/youngsecurity/ai-ollama-webui">
+    <img align="center" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=youngsecurity&repo=ai-ollama-webui&show_owner=true&theme=merko&bg_color=00000000&hide_border=true" />
+</a>
+
+<a href="https://github.com/youngsecurity/ai-privateztgpt">
+    <img align="center" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=youngsecurity&repo=ai-privateztgpt&show_owner=true&theme=merko&bg_color=00000000&hide_border=true" />
+</a>
+
+<a href="https://github.com/youngsecurity/ai-open-interpreter">
+    <img align="center" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=youngsecurity&repo=ai-open-interpreter&show_owner=true&theme=merko&bg_color=00000000&hide_border=true" />
+</a>
+
 <a href="https://github.com/youngsecurity/ai-discord-bot">
     <img align="center" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=youngsecurity&repo=ai-discord-bot&show_owner=true&theme=merko&bg_color=00000000&hide_border=true" />
 </a>
