@@ -29,7 +29,7 @@ jobs:
           template: classic
           base: header
           config_timezone: ${{ secrets.USER_TIMEZONE }}
-          
+
   iso_calender:
     runs-on: ubuntu-latest
     steps:
@@ -40,14 +40,12 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year    
-          # GITHUB_TOKEN is a special auto-generated token used for commits
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          plugin_isocalendar_duration: full-year
 
           # Options
           user: yousecjoe
           template: classic          
-          config_timezone: ${{ secrets.USER_TIMEZONE }}          
+          config_timezone: ${{ secrets.USER_TIMEZONE }}
 
   issue_pr_lang:
     runs-on: ubuntu-latest
