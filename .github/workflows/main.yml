@@ -52,8 +52,7 @@ jobs:
     steps:
       - name: Indepth analysis
         uses: yousecjoe/metrics@master
-        with:
-          use_prebuilt_image: yes
+        with:          
           filename: metrics.plugin.followup.indepth.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
