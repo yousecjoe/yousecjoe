@@ -67,6 +67,10 @@
 <hr>
 <h2><span style="color:green">AI & Bots</span></h2>
 
+<a href="https://github.com/youngsecurity/pentest-agent-system">
+    <img align="center" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=youngsecurity&repo=pentest-agent-system&show_owner=true&theme=merko&bg_color=00000000&hide_border=true" />
+</a>
+
 <a href="https://github.com/youngsecurity/ai-ollama">
     <img align="center" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=youngsecurity&repo=ai-ollama&show_owner=true&theme=merko&bg_color=00000000&hide_border=true" />
 </a>
