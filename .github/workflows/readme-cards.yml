@@ -1,0 +1,273 @@
+name: Update README Cards
+
+on:
+  schedule:
+    - cron: "0 3 * * *"  # Daily at 3 AM UTC
+  workflow_dispatch:
+
+jobs:
+  generate-cards:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Create cards directory
+        run: mkdir -p cards
+
+      # Stats card for yousecjoe
+      - name: Generate stats card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=yousecjoe&show_icons=true&theme=merko&bg_color=00000000&hide_border=true&count_private=true&include_all_commits=true&number_format=long&ring_color=00FF00
+          path: cards/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # === Cybersecurity ===
+      - name: Pin youngsecurity/pentest-agent-system
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=youngsecurity&repo=pentest-agent-system&show_owner=true&theme=merko&bg_color=00000000&hide_border=true
+          path: cards/pin-youngsecurity-pentest-agent-system.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pin redlinejoes/lions-mane-jellyfish
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=redlinejoes&repo=lions-mane-jellyfish&show_owner=true&theme=merko&bg_color=00000000&hide_border=true
+          path: cards/pin-redlinejoes-lions-mane-jellyfish.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pin redlinejoes/Cybersecurity-Vulnerability-Mindmap
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=redlinejoes&repo=Cybersecurity-Vulnerability-Mindmap&show_owner=true&theme=merko&bg_color=00000000&hide_border=true
+          path: cards/pin-redlinejoes-Cybersecurity-Vulnerability-Mindmap.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pin youngsecurity/wazuh
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=youngsecurity&repo=wazuh&show_owner=true&theme=merko&bg_color=00000000&hide_border=true
+          path: cards/pin-youngsecurity-wazuh.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pin redlinejoes/KaiMonkey
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=redlinejoes&repo=KaiMonkey&show_owner=true&theme=merko&bg_color=00000000&hide_border=true
+          path: cards/pin-redlinejoes-KaiMonkey.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # === DevSecOps ===
+      - name: Pin youngsecurity/DevSecOps
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=youngsecurity&repo=DevSecOps&show_owner=true&theme=merko&bg_color=00000000&hide_border=true
+          path: cards/pin-youngsecurity-DevSecOps.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pin youngsecurity/containment-field
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=youngsecurity&repo=containment-field&show_owner=true&theme=merko&bg_color=00000000&hide_border=true
+          path: cards/pin-youngsecurity-containment-field.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pin redlinejoes/underground-nexus
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=redlinejoes&repo=underground-nexus&show_owner=true&theme=merko&bg_color=00000000&hide_border=true
+          path: cards/pin-redlinejoes-underground-nexus.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pin youngsecurity/defense-unicorns-zarf
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=youngsecurity&repo=defense-unicorns-zarf&show_owner=true&theme=merko&bg_color=00000000&hide_border=true
+          path: cards/pin-youngsecurity-defense-unicorns-zarf.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # === AI & Bots ===
+      - name: Pin youngsecurity/ai-ollama
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=youngsecurity&repo=ai-ollama&show_owner=true&theme=merko&bg_color=00000000&hide_border=true
+          path: cards/pin-youngsecurity-ai-ollama.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pin youngsecurity/ai-ollama-webui
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=youngsecurity&repo=ai-ollama-webui&show_owner=true&theme=merko&bg_color=00000000&hide_border=true
+          path: cards/pin-youngsecurity-ai-ollama-webui.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pin youngsecurity/ai-privateztgpt
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=youngsecurity&repo=ai-privateztgpt&show_owner=true&theme=merko&bg_color=00000000&hide_border=true
+          path: cards/pin-youngsecurity-ai-privateztgpt.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pin youngsecurity/ai-open-interpreter
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=youngsecurity&repo=ai-open-interpreter&show_owner=true&theme=merko&bg_color=00000000&hide_border=true
+          path: cards/pin-youngsecurity-ai-open-interpreter.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pin youngsecurity/ai-discord-bot
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=youngsecurity&repo=ai-discord-bot&show_owner=true&theme=merko&bg_color=00000000&hide_border=true
+          path: cards/pin-youngsecurity-ai-discord-bot.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pin redlinejoes/cherry2k
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=redlinejoes&repo=cherry2k&show_owner=true&theme=merko&bg_color=00000000&hide_border=true
+          path: cards/pin-redlinejoes-cherry2k.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # === Game Streaming ===
+      - name: Pin youngsecurity/gow
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=youngsecurity&repo=gow&show_owner=true&theme=merko&bg_color=00000000&hide_border=true
+          path: cards/pin-youngsecurity-gow.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pin youngsecurity/wolf
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=youngsecurity&repo=wolf&show_owner=true&theme=merko&bg_color=00000000&hide_border=true
+          path: cards/pin-youngsecurity-wolf.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pin redlinejoes/moonlight-qt
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=redlinejoes&repo=moonlight-qt&show_owner=true&theme=merko&bg_color=00000000&hide_border=true
+          path: cards/pin-redlinejoes-moonlight-qt.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pin redlinejoes/moonlight-ios
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=redlinejoes&repo=moonlight-ios&show_owner=true&theme=merko&bg_color=00000000&hide_border=true
+          path: cards/pin-redlinejoes-moonlight-ios.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pin redlinejoes/Easy-GPU-PV
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=redlinejoes&repo=Easy-GPU-PV&show_owner=true&theme=merko&bg_color=00000000&hide_border=true
+          path: cards/pin-redlinejoes-Easy-GPU-PV.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # === Containers ===
+      - name: Pin redlinejoes/dockerfiles-jessfraz
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=redlinejoes&repo=dockerfiles-jessfraz&show_owner=true&theme=merko&bg_color=00000000&hide_border=true
+          path: cards/pin-redlinejoes-dockerfiles-jessfraz.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pin redlinejoes/docker-webtop
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=redlinejoes&repo=docker-webtop&show_owner=true&theme=merko&bg_color=00000000&hide_border=true
+          path: cards/pin-redlinejoes-docker-webtop.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pin youngsecurity/kasm-docker
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=youngsecurity&repo=kasm-docker&show_owner=true&theme=merko&bg_color=00000000&hide_border=true
+          path: cards/pin-youngsecurity-kasm-docker.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pin youngsecurity/kasm-workspaces-images
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=youngsecurity&repo=kasm-workspaces-images&show_owner=true&theme=merko&bg_color=00000000&hide_border=true
+          path: cards/pin-youngsecurity-kasm-workspaces-images.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pin redlinejoes/KasmVNC
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=redlinejoes&repo=KasmVNC&show_owner=true&theme=merko&bg_color=00000000&hide_border=true
+          path: cards/pin-redlinejoes-KasmVNC.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # === Stats & Metrics ===
+      - name: Pin redlinejoes/www
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=redlinejoes&repo=www&show_owner=true&theme=merko&bg_color=00000000&hide_border=true
+          path: cards/pin-redlinejoes-www.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pin redlinejoes/upptime
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=redlinejoes&repo=upptime&show_owner=true&theme=merko&bg_color=00000000&hide_border=true
+          path: cards/pin-redlinejoes-upptime.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pin yousecjoe/metrics
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=yousecjoe&repo=metrics&show_owner=true&theme=merko&bg_color=00000000&hide_border=true
+          path: cards/pin-yousecjoe-metrics.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pin yousecjoe/github-readme-stats
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=yousecjoe&repo=github-readme-stats&show_owner=true&theme=merko&bg_color=00000000&hide_border=true
+          path: cards/pin-yousecjoe-github-readme-stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # Commit all generated cards
+      - name: Commit cards
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add cards/*.svg
+          git commit -m "Update README cards - [Skip GitHub Action]" || exit 0
+          git push
