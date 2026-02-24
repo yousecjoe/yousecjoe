@@ -9,6 +9,7 @@ on:
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     permissions:
       contents: write
     steps:
@@ -32,40 +33,52 @@ jobs:
 
   iso_calender:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     permissions:
       contents: write
     steps:
       - name: Full-year calendar
         uses: yousecjoe/metrics@master
         with:
+          use_prebuilt_image: yes
           filename: metrics.plugin.isocalendar.fullyear.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
           base: ""
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
           # Options
           user: yousecjoe
-          template: classic          
+          template: classic
           config_timezone: ${{ secrets.USER_TIMEZONE }}
 
   issue_pr_lang:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     permissions:
       contents: write
     steps:
       - name: Indepth analysis
         uses: yousecjoe/metrics@master
-        with:          
+        with:
+          use_prebuilt_image: yes
           filename: metrics.plugin.followup.indepth.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
           base: ""
           plugin_followup: yes
           plugin_followup_indepth: yes
           plugin_languages: yes
 
+          # Options
+          user: yousecjoe
+          template: classic
+          config_timezone: ${{ secrets.USER_TIMEZONE }}
+
   habits:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     permissions:
       contents: write
     steps:
@@ -87,6 +100,7 @@ jobs:
 
   achievements:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     permissions:
       contents: write
     steps:
