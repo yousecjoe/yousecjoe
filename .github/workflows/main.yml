@@ -13,7 +13,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: yousecjoe/metrics@master
+      - uses: yousecjoe/metrics@d847ce57146b6b6d1a76079578cd0ed29f7827f5
         with:
           use_prebuilt_image: yes
           filename: header.svg
@@ -38,7 +38,7 @@ jobs:
       contents: write
     steps:
       - name: Full-year calendar
-        uses: yousecjoe/metrics@master
+        uses: yousecjoe/metrics@d847ce57146b6b6d1a76079578cd0ed29f7827f5
         with:
           use_prebuilt_image: yes
           filename: metrics.plugin.isocalendar.fullyear.svg
@@ -60,7 +60,7 @@ jobs:
       contents: write
     steps:
       - name: Indepth analysis
-        uses: yousecjoe/metrics@master
+        uses: yousecjoe/metrics@d847ce57146b6b6d1a76079578cd0ed29f7827f5
         with:
           use_prebuilt_image: yes
           filename: metrics.plugin.followup.indepth.svg
@@ -82,7 +82,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: yousecjoe/metrics@master
+      - uses: yousecjoe/metrics@d847ce57146b6b6d1a76079578cd0ed29f7827f5
         with:
           use_prebuilt_image: yes
           filename: github-habits.svg
@@ -104,7 +104,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: yousecjoe/metrics@master
+      - uses: yousecjoe/metrics@d847ce57146b6b6d1a76079578cd0ed29f7827f5
         with:
           use_prebuilt_image: yes
           filename: achievements.svg
